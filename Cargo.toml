@@ -1,0 +1,6 @@
+[workspace]
+members = ["bin-tool", "lib1", "lib2"]
+
+
+[repalce]
+"lib1:0.1.0" = { path = "lib1" }
