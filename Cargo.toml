@@ -1,6 +1,8 @@
 [workspace]
 members = ["bin-tool", "lib1", "lib2"]
 
+[workspace.lints.rust]
+unsafe_code = "forbid"
 
 [repalce]
 "lib1:0.1.0" = { path = "lib1" }
